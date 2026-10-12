@@ -1,0 +1,22 @@
+{
+  "name": "derivguard",
+  "version": "1.0.0",
+  "description": "Autonomous Algorithmic Trading Risk Firewall & Execution Sandbox for Deriv APIs",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/deriv_guard.test.mjs",
+    "demo": "node demo.mjs"
+  },
+  "keywords": [
+    "deriv",
+    "algorithmic-trading",
+    "ai-agents",
+    "risk-firewall",
+    "trading-guardrails",
+    "hackathon",
+    "lablab-ai"
+  ],
+  "author": "Siddharth Srivastava (sidsri14)",
+  "license": "MIT"
+}
