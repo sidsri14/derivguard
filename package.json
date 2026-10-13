@@ -5,8 +5,9 @@
   "main": "src/index.mjs",
   "type": "module",
   "scripts": {
-    "test": "node --test test/deriv_guard.test.mjs",
-    "demo": "node demo.mjs"
+    "test": "node --test test/*.test.mjs",
+    "demo": "node demo.mjs",
+    "start": "node src/server.mjs"
   },
   "keywords": [
     "deriv",
